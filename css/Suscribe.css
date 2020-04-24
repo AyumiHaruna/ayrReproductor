@@ -1,0 +1,84 @@
+.Suscribe{
+    padding: 1.5vw;
+    /* background: rgb(0,255,179);
+    background: -moz-linear-gradient(300deg, rgba(0,255,179,1) 0%, rgba(0,203,255,1) 17%, rgba(31,0,108,1) 100%);
+    background: -webkit-linear-gradient(300deg, rgba(0,255,179,1) 0%, rgba(0,203,255,1) 17%, rgba(31,0,108,1) 100%);
+    background: linear-gradient(300deg, rgba(0,255,179,1) 0%, rgba(0,203,255,1) 17%, rgba(31,0,108,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00ffb3",endColorstr="#1f006c",GradientType=1); */
+    background-image: url('../img/components/fazulg.jpeg');
+    width: 100vw;
+}
+.Suscribe_Text{
+    padding-right: 4vw;
+    margin-top: 15px;
+    color: #FFF;
+    font-size: 1.3em;
+    text-align: right;
+}
+
+.Suscribe #Suscribe_Input {
+    font-size: 1.1em;
+    height: 3.6rem;
+    color: #c72a94;
+    text-align: center;
+}
+.Suscribe #Suscribe_Input:focus {
+    outline: none !important;
+    border: 3px solid #1f7a7a;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+#Suscribe_button {
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1rem 2rem;
+    background-color: #29a3a3;
+    color: #FFF;
+    font-size: 1.1em;
+    font-family: "Montserrat";
+}
+#Suscribe_button:hover {
+    background-color: #1f7a7a;
+}
+#Suscribe_button:active{
+    background-color: #1f7a7a;
+}
+
+
+@media (max-width: 768.98px) {
+    .Suscribe{
+        padding: 2vw 10vw;
+    }
+    .Suscribe_Text{
+        padding-right: 0vw;
+        margin-top: 0vw;
+        margin-bottom: 2vw;
+        font-size: 1.2em;
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .Suscribe{
+        padding: 4vw 10vw;
+    }
+    .Suscribe_Text{
+        padding-right: 0vw;
+        margin-top: 0vw;
+        margin-bottom: 2vw;
+        font-size: 1.1em;
+        text-align: center;
+    }
+    .Suscribe .input-group{
+        display: block;
+    }
+    .Suscribe #Suscribe_Input {
+        width: 100%;
+        margin-bottom: 3vw;
+        font-size: 0.9
+    }
+    .Suscribe #Suscribe_button {
+        width: 100%;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,146 @@
+.Sub_Apps_Container{
+    width: 100vw;
+    background: #fff;
+}
+
+.Sub_Apps_Wrapper {
+    padding: 2vw 10vw;
+}
+.Sub_Apps .app_container{
+    padding: 1.5vw;
+}
+.Sub_Apps .app_card{
+    border: solid 1px #e5e5e5;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 0 1vw 1.5vw 1vw;
+    cursor: default;
+    color: #4d4c5c;
+    font-family: 'Gotham-Rounded';
+    font-size: 1em;
+    -webkit-box-shadow: 0px 4px 11px -1px rgba(133,133,133,1);
+    -moz-box-shadow: 0px 4px 11px -1px rgba(133,133,133,1);
+    box-shadow: 0px 4px 11px -1px rgba(133,133,133,1);
+}
+
+.Sub_Apps .title{
+    padding: 1vw;
+    color: #cf1374;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: 'Montserrat';
+}
+
+.Sub_Apps .logo{
+    border: solid 1px #e5e5e5;
+    border-radius: 15px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0.5vw;
+    text-align: center;
+}
+.Sub_Apps .logo img{
+    width: 90%;
+    height: auto;
+}
+
+.Sub_Apps .dwnLink{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #aaa;
+    margin-bottom: 1vw;
+}
+.Sub_Apps .dwnLink img{
+    width: 45%;
+    height: auto;
+}
+.Sub_Apps .dwnLink img:hover{
+    opacity: 0.7;
+}
+
+.Sub_Apps .category{
+    color: #aaa;
+    margin-bottom: 1rem;
+}
+.Sub_Apps .description{
+    font-size: 1em;
+    text-align: justify;
+    font-weight: lighter;
+    color: #737373;
+}
+
+.Sub_Apps_Container button{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 50px;
+    width: 6vw;
+    height: 6vw;
+    z-index: 2;
+    font-size: 4em;
+    color: #cc0099;
+    margin-top: 20vw;
+}
+.Sub_Apps_Container button:hover{
+    background-color: #bfbfbf;
+    color: #8c8c8c;
+}
+
+.Sub_Apps_Container .car-btn-prev{
+    left: 3vw;
+}
+.Sub_Apps_Container .car-btn-next{
+    right: 3vw;
+}
+
+
+@media (max-width: 1200.98px) {}
+@media (max-width: 768.98px) {
+    .Sub_Apps_Container button{
+        background-color: rgba(255, 255, 255, 0);
+        width: 4vw;
+        height: 4vw;
+        font-size: 2.5em;
+        color: #cc0099;
+        margin-top: 30vw;
+    }
+}
+@media (max-width: 576px) {
+    .Sub_Apps_Container {
+        padding: 8vw 0 4vw 0;
+    }
+    .Sub_Apps .title{
+        padding: 2vw 0;
+        font-size: 1.2em;
+    }
+    .Sub_Apps .logo{
+        width: 55%;
+    }
+    .Sub_Apps .category{
+        display: none;
+    }    
+    .Sub_Apps .description{
+        font-size: 0.85em;
+        padding: 2vw 4vw;
+    }
+
+    .Sub_Apps_Container button{
+        background-color: rgba(255, 255, 255, 0);
+        width: 4vw;
+        height: 4vw;
+        font-size: 2.5em;
+        color: #cc0099;
+        margin-top: 40vw;
+    }
+    
+    .Sub_Apps_Container .car-btn-prev{
+        left: 0;
+    }
+    .Sub_Apps_Container .car-btn-next{
+        right: 10vw;
+    }
+}
+

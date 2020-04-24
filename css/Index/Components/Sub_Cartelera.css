@@ -1,0 +1,226 @@
+.Index_Ventana_cartelera{
+    background: #fff;
+}
+.Index_Ventana_cartelera .cartelera {
+    font-family: 'Gotham-Rounded';
+    font-size: 1.5em;
+    color: #0033cc;
+    padding: 3vw;
+}
+
+
+@media (max-width: 1200.98px) {}
+@media (max-width: 768.98px) {}
+@media (max-width: 576px) {
+    .Index_Ventana_cartelera .cartelera {
+        font-size: 1.2em;
+        padding: 8vw;
+    }
+}
+
+
+
+
+/* .Sub_Cartelera_Container {
+    width: 100vw;
+    background: #fff;
+}
+.Sub_Cartelera_Container .secondBg{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-image: url("../../../img/index/bannerTri.png");
+    background-repeat: repeat;
+    background-size: 48%;
+}
+
+
+.Sub_Cartelera_Container .header{
+    padding: 1vw 10vw;
+    background: rgb(0,203,255);
+    background: -moz-linear-gradient(137deg, rgba(0,203,255,1) 0%, rgba(31,0,108,1) 100%);
+    background: -webkit-linear-gradient(137deg, rgba(0,203,255,1) 0%, rgba(31,0,108,1) 100%);
+    background: linear-gradient(137deg, rgba(0,203,255,1) 0%, rgba(31,0,108,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00cbff",endColorstr="#1f006c",GradientType=1);
+    overflow: hidden;
+}
+.Sub_Cartelera_Container .header .title{
+    font-family: 'Montserrat';
+    color: #ffb979;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 2vw;
+}
+.Sub_Cartelera_Container .icon img{
+    display: block;
+    width: 8vw;
+    margin: auto;
+}
+
+
+.Sub_Cartelera_Container .filters {
+    padding:  2vw 3vw 2vw 3vw;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.Sub_Cartelera_Container .filters .first {
+    font-size: 1.6em;
+    color: #002699;
+    text-align: left;
+    margin-left: 5vw;
+}
+
+
+.Sub_Cartelera_Container .filters .formContainer{
+    padding: 1vw 3vw;
+    font-size: 1.2em;
+}
+.Sub_Cartelera_Container .filters label{
+    color: #002699;
+}
+.Sub_Cartelera_Container .filters select{
+    font-family: 'Gotham-Rounded';
+    width: 100%;
+    color: #c72a94;
+    border-radius: 5px;
+    border: solid 1px #1f7a7a;
+    height: 2em;
+    padding: 0 2vw;
+}
+.Sub_Cartelera_Container .filters select:focus{
+    outline: none !important;
+    border: 1px solid #1f7a7a;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.Sub_Cartelera_Container .cartelera_area .activityTitle{
+    font-family: 'Montserrat';
+    background: rgb(0,212,198);
+    background: -moz-linear-gradient(131deg, rgba(0,212,198,1) 0%, rgba(94,30,255,1) 100%);
+    background: -webkit-linear-gradient(131deg, rgba(0,212,198,1) 0%, rgba(94,30,255,1) 100%);
+    background: linear-gradient(131deg, rgba(0,212,198,1) 0%, rgba(94,30,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00d4c6",endColorstr="#5e1eff",GradientType=1);
+    padding: 1.5vw 6vw;
+    color: #ffb979;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: right;
+}
+
+.Sub_Cartelera_Container .cartelera_area .category_container{
+    padding: 1vw 5vw;
+    overflow-x: hidden;
+}
+.Sub_Cartelera_Container .cartelera_area .category_container .card_container{
+    padding: 1vw;
+}
+.Sub_Cartelera_Container .card{
+    border: solid 1px #e5e5e5;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: default;
+    color: #4d4c5c;
+    font-family: 'Montserrat';
+    -webkit-box-shadow: 0px 4px 11px -1px rgba(133,133,133,1);
+    -moz-box-shadow: 0px 4px 11px -1px rgba(133,133,133,1);
+    box-shadow: 0px 4px 11px -1px rgba(133,133,133,1);
+    padding-bottom: 1vw;
+}
+
+
+.Sub_Cartelera_Container .card .head{
+    min-height: 14vw;
+}
+.Sub_Cartelera_Container .card .head .title{
+    font-weight: bold;
+    margin-top:7vw;
+    min-height:7vw;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    padding: 2em;
+    text-align: center;
+    color: #e6f7ff;
+    font-size: 1.4em;
+}
+
+
+.Sub_Cartelera_Container .card .body{
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+}
+.Sub_Cartelera_Container .card .body .state{
+    font-size: 1.5em;
+    color: #29a3a3;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+}
+.Sub_Cartelera_Container .card .body .state span{
+    font-size: 0.8em;
+    margin-left: 2em;
+    color: #ff3399;
+}
+.Sub_Cartelera_Container .card .body .age{
+    color: #999999;
+    font-size: 1em;
+    text-align: right;
+}
+.Sub_Cartelera_Container .card .body .author{
+    font-family: 'Gotham-Rounded';
+    color: #ff3399;
+    text-align: right;
+}
+.Sub_Cartelera_Container .card .body .description{
+    font-family: 'Gotham-Rounded';
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border: dashed 3px #ffb3ff;
+    padding: 1.5em 1em;
+    text-align: justify;
+    color: #8c8c8c;
+    font-size: 0.9em;
+}
+.Sub_Cartelera_Container .card .body .schedule{
+    color: #cc00cc;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.Sub_Cartelera_Container .card .body .other{
+    color: #a6a6a6;
+    font-size: 0.9em;
+}
+
+
+.Sub_Cartelera_Container .card .footer{
+    font-size: 0.9em;
+    text-align: center;
+    padding: 2em 2em;
+}
+.Sub_Cartelera_Container .card .footer .direction{
+    font-family: 'Gotham-Rounded';
+}
+.Sub_Cartelera_Container .card .footer .direction div{
+    margin-bottom: 0.3em;
+}
+.Sub_Cartelera_Container .card .footer .direction .place{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #0099ff;
+    font-size: 1.1em;
+}
+.Sub_Cartelera_Container .card .footer .direction .area{
+    color: #ff3399;
+}
+.Sub_Cartelera_Container .card .footer .direction .dir a{
+    color: #29a3a3;
+}
+
+
+
+.Sub_Cartelera_Container .msg_container{
+    color: #002699;
+    font-size: 1.5em;
+    padding: 3vw;
+}
+
+ */

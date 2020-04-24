@@ -1,0 +1,142 @@
+.nav_vita{
+    /* background-color: rgba(0,0,0,0.4); */
+    background-color: #f8f9fa;
+    /* border-radius: 3px; */
+    /* border-bottom: 2px solid #b904c9; */
+    margin-bottom: 0vw;
+    font-family: "Montserrat";
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0em;
+    width: 100%;    
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+}
+
+.nav_vita #navBrand{
+    width: 30%;
+    margin-left: 5%;
+}
+
+
+.nav_vita .nav-item{
+    text-align: center;
+    line-height: 3vw;
+}
+.nav_vita .nav-item.active {
+    border-bottom: solid 4px #33cccc;
+}
+.nav_vita .nav-link{
+    padding: 0 1.5rem 0.5rem 1.5rem!important;
+    /* display: grid; */
+}
+
+.subNav {
+    background-color: #7c0286;
+    text-align: left;
+    padding: 1vw 2vw;
+    z-index: 3;
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5)
+}
+.subNav #logoVitaminas {
+    width: 20vw;
+}
+
+.subNav .button_container{
+    text-align: right;
+}
+.subNav button{
+    background: #fff;
+    color: #7c0286;
+    padding: 0.8vw 1vw;
+    margin: 0 1vw;
+    border: none !important;
+}
+.subNav button:hover,
+.subNav button.active {
+    background: #ff8600;
+    color: #fff;
+    padding: 0.8vw 1vw;
+    margin: 0 1vw;
+}
+
+
+@media (max-width: 768.98px) {
+    .nav_vita{
+        /* background-color: rgba(0,0,0,0.6); */
+        background-color: #f8f9fa;
+
+    }
+    .nav_vita .nav-bar a{
+        text-align: center;
+    }
+    .nav_vita .brand_container {
+        text-align: center;
+    }
+    .nav_vita #navBrand{
+        width: 25%;
+        margin: auto;
+        margin-bottom: 2vw;
+    }
+
+    .subNav {
+        padding: 3vw 0vw;
+    }
+    .subNav .logo_container {
+        text-align: center;
+    }
+    .subNav #logoVitaminas{
+        width: 35%;
+    }
+
+    .subNav .button_container {
+        text-align: center;
+        margin-top: 3vw;
+    }
+
+
+    .nav_vita .nav-item{
+        line-height: 5vw;
+    }
+    .nav_vita .nav-item .nav-link{
+        padding: 0 1.5rem 1rem 1.5rem!important;
+        display: inline;
+        line-height: 7vw;
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 576px) { 
+    .nav_vita .navbar-toggler {
+        padding: 0.3em 0.7em;
+    }
+    .nav_vita .nav-item .nav-link{
+        padding: 0 1.5rem 1rem 1.5rem!important;
+        display: inline;
+        line-height: 14vw;
+        font-size: 1em;
+    }
+    .nav_vita #navBrand{
+        width: 45%;
+        margin: auto;
+        margin-bottom: 4vw;
+    }
+    
+    .subNav {
+        padding: 6vw 0vw;
+    }
+    .subNav #logoVitaminas{
+        width: 60%;
+    }
+
+    .subNav .button_container {
+        text-align: center;
+        margin-top: 3vw;
+    }
+    .subNav .button_container button{
+        margin-top: 4vw;
+        padding: 2.5vw 3vw;
+    }
+}

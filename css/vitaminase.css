@@ -1,0 +1,364 @@
+.vitamina_block{
+    background-color: #E2EdA2;
+}
+
+.vitamina_content{
+    background-color: #E58505;
+    color: #6a0882;
+    padding-bottom: 3vw;
+}
+
+
+.main_video_block{
+    padding: 3vw 0;
+    font-family: 'Lettersforlearners';
+}
+.fb-comments{
+    min-height: 20vw;
+}
+.vitamin_list {
+    font-size: 1.8em;
+    color: #6a0882;
+}
+.vitamin_list #accordionList {
+    overflow: auto;
+    max-height: 35vw;
+}
+.vitamin_list .header_title {
+    text-align: center;
+    background-color: #6a0882;
+    color: #fff;
+    font-size: 1.3em;
+}
+.vitamin_list img{
+    width: 20%;
+    margin-right: 3vw;
+}
+.vitamin_list button{
+    font-family: 'Montserrat';
+    font-size: 0.6em;
+    color: #000;
+}
+
+.vitamina_title {
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2vw;
+}
+.vitamin_list .card-body{
+    font-size: 0.9em;
+}
+.vitamin_list span {
+    font-size: 1em;
+    color: #004d99;
+    cursor: pointer;
+}
+.vitamin_list span:hover {
+    color: #3399ff;
+}
+
+.vitamina_video {
+    padding: 0 3vw;
+}
+.vitamina_video iframe{
+    width: 100%;
+    min-height: 30vw;
+    max-height: 100%;
+}
+#videoDescription {
+    color: #6a0882;
+    font-size: 1.6em;
+    line-height: 1em;
+}
+#videoSuggest {
+    margin-top: 1.5vw;
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+.vitamina_description {
+    font-family: "Lettersforlearners";
+    padding: 0 1vw 0 1vw;
+    color: #6a0882;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.vitamina_description .title {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1vw;
+}
+.vitamina_description .description{
+    font-size: 5em;
+    text-align: left;
+}
+.vitamina_description .aviso{
+    background-color: #6a0882;
+    padding: 1vw 2vw;
+    font-size: 1em;
+}
+.vitamina_description .aviso img{
+    width: 50%;    
+    display:block;
+    margin: auto;
+}
+
+
+
+.queEs {
+    background-color: #fff;
+    font-family: "Lettersforlearners";
+    text-align: center;
+    font-size: 1.8em;
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5);
+}
+.queEs .title{
+    padding-top: 2vw;
+    font-size: 1.2em;
+    color: #6a0882;
+    font-weight: bold;
+}
+.queEs .description {
+    padding: 1vw 12vw;
+    padding-bottom: 2vw;
+}
+
+
+
+.comoJuego {
+    background-color: #fff;
+    font-family: "Lettersforlearners";
+    font-size: 1.8em;
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5);
+}
+.comoJuego .image_container{
+    text-align: center;
+}
+.comoJuego img {
+    margin-top: 30%;
+    width: 60%;
+    transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+}
+.comoJuego .title{
+    text-align: center;
+    padding-top: 1vw;
+    font-size: 1.3em;
+    color: #6a0882;
+    font-weight: bold;
+}
+.comoJuego .description {
+    padding-bottom: 1vw;
+    padding-right: 1.5vw;
+    text-align: justify;
+}
+
+
+.recetario_block {
+    background-color: #6a0882;
+    padding: 1.5vw 10vw;
+    font-size: 2em;
+    font-family: "Lettersforlearners";
+    color: #fff;
+}
+.recetario_block img {
+    width: 80%;
+}
+.recetario_block .title {
+    padding-top: 1.5vw;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 1.4px;
+}
+.recetario_block .description button{
+    margin-top: 1.5vw;
+    font-size: 1em;
+    background-color: #E58505;
+    color: #fff;
+}
+.recetario_block .description button:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+@media (max-width: 768.98px) {
+    .vitamina_video iframe{
+        min-height: 40vw;
+    }
+    .vitamina_description{
+        padding: 0 3vw;
+    }
+    .vitamina_description .title {
+        font-size: 1.8em;
+    }
+    .vitamina_description .aviso img{
+        width: 30%;  
+    }
+
+    .queEs{
+        font-size: 1.6em;
+    }
+    .comoJuego{
+        font-size: 1.6em;
+    }
+    .comoJuego img {
+        margin-top: 3vw;
+        width: 20%;
+    }
+    .comoJuego .description {
+        padding: 0 3vw 3vw 3vw;
+    }
+
+    #videoDescription {
+        font-size: 1.8em;
+    }
+    #videoSuggest {
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+
+    .fb-comments{
+        min-height: 30vw;
+    }
+    
+    .vitamin_list img{
+        width: 15%;
+    }
+    .vitamina_title {
+        font-size: 1.5em;
+        padding: 2vw;
+    }
+    .vitamin_list .card-body{
+        font-size: 0.9em;
+    }
+    .vitamin_list span {
+        font-size: 1em;
+    }
+
+
+    .recetario_block {
+        padding: 3vw 5vw;
+        font-size: 2em;
+    }
+    .recetario_block img {
+        margin-top: 10%;
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .main_video_block{
+        padding: 5vw 10vw;
+    }
+    .vitamina_content {
+        padding: 0 8vw 5vw 8vw;
+    }
+
+    .vitamina_title {
+        font-size: 2em;
+        padding: 4vw 3vw;
+    }
+    .vitamina_title span {
+        font-size: 2em;
+    }
+
+    .vitamina_video iframe{
+        min-height: 50vw;
+    }
+
+    .vitamina_description{
+        padding: 1 5vw;
+    }
+    .vitamina_description .title {
+        font-size: 1.5em;
+        margin-bottom: 3vw;
+    }
+    .vitamina_description .description{
+        font-size: 2em;
+        text-align: justify;
+    }
+    .vitamina_description .aviso img{
+        width: 50%;  
+    }
+
+
+    .queEs{
+        font-size: 1.5em;
+    }
+    .comoJuego{
+        font-size: 1.5em;
+    }
+    .comoJuego img {
+        margin-top: 3vw;
+        width: 30%;
+    }
+    .comoJuego .description {
+        padding: 0 3vw 4vw 3vw;
+    }
+
+    #videoDescription {
+        font-size: 1.6em;
+    }
+    #videoSuggest {
+        margin-top: 6vw;
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+
+
+    .fb-comments{
+        min-height: 50vw;
+    }
+
+    .vitamin_list #accordionList {
+        overflow: auto;
+        max-height: 80vw;
+    }
+
+    .vitamin_list {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .vitamin_list button{
+        font-size: 0.7em;
+    }
+    .vitamin_list img{
+        width: 30%;
+    }   
+    .vitamin_list .header_title {
+        font-size: 1.2em;
+    }
+    .vitamin_list .card-body{
+        font-size: 0.9em;
+    }
+    .vitamin_list span {
+        font-size: 1em;
+    }
+
+    .recetario_block {
+        padding: 0 5vw 10vw 5vw;
+        font-size: 1.7em;
+        text-align: center;
+    }
+    .recetario_block img {
+        width: 40%;
+    }
+    .recetario_block .title {
+        font-size: 1.3em;
+    }
+}

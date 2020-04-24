@@ -1,0 +1,194 @@
+.Index_Ventana_Audio {
+    background-color: #f0f6ff;
+}
+
+.Index_Ventana_Main_Info {
+    padding: 2vw;
+    text-align: center;
+    color: #FF7C18;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.Index_Ventana_Audio .playerWrapper{
+    background: #fff;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    margin-bottom: 3vw;
+    -webkit-box-shadow: 0px 3px 15px 1px rgba(184,184,184,1);
+    -moz-box-shadow: 0px 3px 15px 1px rgba(184,184,184,1);
+    box-shadow: 0px 3px 15px 1px rgba(184,184,184,1);
+    overflow: hidden;
+}
+
+.Index_Ventana_Audio .program_block{
+    padding: 2vw;
+    max-height: 43em;
+    overflow-y: auto;
+}
+
+.Index_Ventana_Audio .Audio_Program .Audio_Program_Container{
+    border: solid 1vw #ccf9ff;
+    border-radius: 50%;
+    max-width: 12em;
+    max-height: 12em;
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    margin: 1.5vw 0 0 0;
+    cursor: pointer;
+
+}
+.Index_Ventana_Audio .Audio_Program .Audio_Program_Container:hover{
+    border: solid 1vw #99f3ff;
+}
+.Index_Ventana_Audio .Audio_Program .Audio_Program_Container.active{
+    border: solid 1vw #00cbe6;
+}
+.Index_Ventana_Audio .Audio_Program .Audio_Program_Container img{
+    width: 105%;
+}
+
+
+.Index_Ventana_Audio .Player_Select_PlayList{
+    min-height: 25em;
+    max-height: 25em;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 2vw 1vw 0 3vw;
+    border-right: solid 1px #e6e6e6;
+    border-bottom: solid 1px #e6e6e6;
+}
+
+
+.Index_Ventana_Audio .list_Element {
+    background: #fff;
+    border-bottom: solid 1px #d9d9d9;
+}
+.Index_Ventana_Audio .list_Element .type{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 1.7vw;
+    color: #808080;
+}
+.Index_Ventana_Audio .list_Element .info{
+    padding: 0.7em;
+    font-family: 'Gotham-Rounded';
+    font-size: 0.95em;
+    color: #29a3a3;
+    line-height: 1em;
+}
+.Index_Ventana_Audio .list_Element .info span{
+    font-family: 'Montserrat';
+    font-size: 1.1em;
+    color: #808080;
+    line-height: 2vw;
+    font-weight: bold;
+}
+
+
+
+
+.Index_Ventana_Audio .list_Element:hover{
+    background: rgba(0, 153, 153, 0.3);
+    cursor: pointer;
+}
+
+
+
+.Index_Ventana_Audio .list_Element.active{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #29a3a3;
+}
+.Index_Ventana_Audio .list_Element.active .type{
+    color: #ffc107;
+}
+.Index_Ventana_Audio .list_Element.active .info{
+    color: #f2f2f2;
+}
+.Index_Ventana_Audio .list_Element.active .info span{
+    color: #ffdf80;
+}
+
+
+
+
+
+@media (max-width: 1200.98px) {
+    .Index_Ventana_Audio .list_Element .info{
+        font-size: 0.85em;
+    }
+    .Index_Ventana_Audio .list_Element .info span{
+        font-size: 1.1em;
+        line-height: 2.5vw;
+    }
+
+    .Index_Ventana_Audio .Player_Select_PlayList{
+        min-height: 20em;
+        max-height: 20em;
+    }
+    .Index_Ventana_Audio .Audio_Program .Audio_Program_Container{
+        max-width: 12em;
+        max-height: 12em;
+        width: 100%;
+        height: 90%;    
+    }
+    .Index_Ventana_Audio .program_block{
+        padding: 2vw;
+        max-height: 35em;
+        overflow-y: auto;
+    }
+}
+@media (max-width: 768.98px) {
+    .Index_Ventana_Main_Info {
+        padding: 4vw;
+        font-size: 1.8em;
+    }
+}
+@media (max-width: 576px) {
+    .Index_Ventana_Audio {
+        padding-bottom: 6vw;
+    }
+    .Index_Ventana_Main_Info {
+        padding: 8vw 2vw 4vw 2vw;
+        font-size: 1.3em;
+    }
+    .Index_Ventana_Audio .playerWrapper{
+        margin-left: 3%;
+    }
+    .Index_Ventana_Audio .program_block {
+        overflow-x: hidden;   
+        padding: 2vw;
+        max-height: 35em;
+    }
+    .Index_Ventana_Audio .Audio_Program .Audio_Program_Container{
+        border: solid 2vw #ccf9ff;
+    }
+    .Index_Ventana_Audio .Audio_Program .Audio_Program_Container.active{
+        border: solid 2vw #00cbe6;
+    }
+    
+    .Index_Ventana_Audio .Audio_Program .Audio_Program_Container{
+        max-width: 8em;
+        max-height: 8em;
+    }
+    .Index_Ventana_Audio .list_Element {
+        background: #fff;
+        border-bottom: solid 1px #d9d9d9;
+    }
+
+    .Index_Ventana_Audio .list_Element .type{
+        display: none;
+    }
+    .Index_Ventana_Audio .list_Element .info{
+        padding: 4vw;
+        font-size: 0.7em;
+    }
+    .Index_Ventana_Audio .list_Element .info span{
+        font-size: 1.3em;
+        line-height: 1.5em;
+    }
+}
+

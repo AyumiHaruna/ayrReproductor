@@ -1,0 +1,51 @@
+.encuesta_block {
+    background-color: #FF9E45;
+    padding: 2vw 4vw;
+}
+
+.encuesta_content {
+    background-color: #FFB26B;  
+    text-align: center;
+    font-size: 1.8em;
+    padding: 2vw 2vw;
+    overflow-y: hidden;
+}
+
+.encuesta_content .encuesta_link {
+    padding: 3vw; 
+    background-image: url('../../img/components/wooden.jpeg');
+    background-size: 40%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.encuesta_content .encuesta_link a{ 
+    color: #fff;
+}
+.encuesta_content .encuesta_link a:hover{ 
+    color: #d9d9d9;
+}
+
+
+@media (max-width: 768.98px) {
+    .encuesta_content {
+        font-size: 1.5em;
+    }
+    .encuesta_content .encuesta_link {
+        background-size: 70%;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .encuesta_block {
+        padding: 6vw 0;
+    }
+    
+    .encuesta_content {
+        font-size: 1.3em;
+        padding: 0;
+    }
+    .encuesta_content .encuesta_link {
+        background-size: 100%;
+    }   
+}
