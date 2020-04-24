@@ -10,106 +10,106 @@ const player_data = {
             1 : { 'songName' : 'La cara oculta de la luna',
                 'url' : 'audio/travesuras/TRAVESURAS-04.mp3',
                 'thumbnail' : 'img/neo/travesuras_thumb.png',
-                'artist' : 'Sondas que recaban datos de la luna, piedras que nos hablan del origen del cosmos y mÃ¡s. Hay que voltear al cielo de noche.',
+                'artist' : 'Sondas que recaban datos de la luna, piedras que nos hablan del origen del cosmos y más. Hay que voltear al cielo de noche.',
                 'type': 'audio' ,            
             },
-            2 : { 'songName' : 'Â¿A dÃ³nde van los patos?',
+            2 : { 'songName' : '¿A dónde van los patos?',
                 'url' : 'audio/travesuras/TRAVESURAS-03.mp3',
                 'thumbnail' : 'img/neo/travesuras_thumb.png',
-                'artist' : 'Los seres vivos, como las aves, pueden requerir un clima que les permita vivir y mantener un hÃ¡bitat adecuado para cada una de sus etapas de vida.',
+                'artist' : 'Los seres vivos, como las aves, pueden requerir un clima que les permita vivir y mantener un hábitat adecuado para cada una de sus etapas de vida.',
                 'type': 'audio' ,               
             },
             3 : { 
-                'songName' : 'Â¡Virus y Verrugas!',
+                'songName' : '¡Virus y Verrugas!',
                 'url' : 'audio/travesuras/TRAVESURAS-02.mp3',
                 'thumbnail' : 'img/neo/travesuras_thumb.png',
                 'artist' : 'El Virus de VPH, las verrugas y los conocimientos tradicionales que ayudan a aprender.',
                 'type': 'audio' ,                          
             }, 
             4 : { 
-                'songName' : 'Â¡La ciencia estÃ¡ en todas partes!',
+                'songName' : '¡La ciencia está en todas partes!',
                 'url' : 'audio/travesuras/TRAVESURAS-01.mp3',
                 'thumbnail' : 'img/neo/travesuras_thumb.png',
-                'artist' : 'Carola, la niÃ±a investigadora y Paulo, Â¡El caracol veloz!',
+                'artist' : 'Carola, la niña investigadora y Paulo, ¡El caracol veloz!',
                 'type': 'audio' ,               
             },
         },
-        'description' : 'Travesuras a la ciencia busca acercar a los niÃ±os y niÃ±as al conocimiento, al estudio de la ciencia, que tambiÃ©n es cultura. A los saberes locales, tradicionales, a la experiencia propia, la observaciÃ³n, la emociÃ³n de la curiosidad y todo lo que implica aprender de manera empÃ­rica.',
+        'description' : 'Travesuras a la ciencia busca acercar a los niños y niñas al conocimiento, al estudio de la ciencia, que también es cultura. A los saberes locales, tradicionales, a la experiencia propia, la observación, la emoción de la curiosidad y todo lo que implica aprender de manera empírica.',
     },
-    /* CÃ¡psulas de Ripios, Garabatos y JitanjÃ¡foras */
+    /* Cápsulas de Ripios, Garabatos y Jitanjáforas */
     2 : {
-        'name' : 'CÃ¡psulas de Ripios, Garabatos y JitanjÃ¡foras',
+        'name' : 'Cápsulas de Ripios, Garabatos y Jitanjáforas',
         'age' : 0,
         'thumbnail' : 'img/neo/rgj_thumb.png',
         'playList' : {
             1 : { 
-                'songName' : 'Ripios, Garabatos y JitanjÃ¡foras',
+                'songName' : 'Ripios, Garabatos y Jitanjáforas',
                 'url' : 'audio/rgj/RGJ-07.mp3',
                 'thumbnail' : 'img/neo/rgj_thumb.png',
-                'artist' : 'CÃ¡psula 07: Coloresto mamÃ­fero tentempiÃ©',
+                'artist' : 'Cápsula 07: Coloresto mamífero tentempié',
                 'type': 'audio' ,               
             },
             2 : { 
-                'songName' : 'Ripios, Garabatos y JitanjÃ¡foras',
+                'songName' : 'Ripios, Garabatos y Jitanjáforas',
                 'url' : 'audio/rgj/RGJ-06.mp3',
                 'thumbnail' : 'img/neo/rgj_thumb.png',
-                'artist' : 'CÃ¡psula 06: onomatopeyas y absurdos',
+                'artist' : 'Cápsula 06: onomatopeyas y absurdos',
                 'type': 'audio' ,               
             },
             3 : { 
-                'songName' : 'Ripios, Garabatos y JitanjÃ¡foras',
+                'songName' : 'Ripios, Garabatos y Jitanjáforas',
                 'url' : 'audio/rgj/RGJ-05.mp3',
                 'thumbnail' : 'img/neo/rgj_thumb.png',
-                'artist' : 'CÃ¡psula 05: Las ballenas, la enumeraciÃ³n',
+                'artist' : 'Cápsula 05: Las ballenas, la enumeración',
                 'type': 'audio' ,               
             },
             4 : { 
-                'songName' : 'Ripios, Garabatos y JitanjÃ¡foras',
+                'songName' : 'Ripios, Garabatos y Jitanjáforas',
                 'url' : 'audio/rgj/RGJ-04.mp3',
                 'thumbnail' : 'img/neo/rgj_thumb.png',
-                'artist' : 'CÃ¡psula 04: Â¡Surrealismo y dadaÃ­smo!',
+                'artist' : 'Cápsula 04: ¡Surrealismo y dadaísmo!',
                 'type': 'audio' ,               
             },
             5 : { 
-                'songName' : 'Ripios, Garabatos y JitanjÃ¡foras',
+                'songName' : 'Ripios, Garabatos y Jitanjáforas',
                 'url' : 'audio/rgj/RGJ-03.mp3',
                 'thumbnail' : 'img/neo/rgj_thumb.png',
-                'artist' : 'CÃ¡psula 03: De Haikus y otras formas',
+                'artist' : 'Cápsula 03: De Haikus y otras formas',
                 'type': 'audio' ,               
             },
             6 : { 
-                'songName' : 'Ripios, Garabatos y JitanjÃ¡foras',
+                'songName' : 'Ripios, Garabatos y Jitanjáforas',
                 'url' : 'audio/rgj/RGJ-02.mp3',
                 'thumbnail' : 'img/neo/rgj_thumb.png',
-                'artist' : 'CÃ¡psula 02: Â¿QuÃ© es una jitanjÃ¡fora?',
+                'artist' : 'Cápsula 02: ¿Qué es una jitanjáfora?',
                 'type': 'audio' ,               
             },
             7 : { 
-                'songName' : 'Ripios, Garabatos y JitanjÃ¡foras',
+                'songName' : 'Ripios, Garabatos y Jitanjáforas',
                 'url' : 'audio/rgj/RGJ-01.mp3',
                 'thumbnail' : 'img/neo/rgj_thumb.png',
-                'artist' : 'CÃ¡psula de estreno: Â¿QuÃ© es un ripio?',
+                'artist' : 'Cápsula de estreno: ¿Qué es un ripio?',
                 'type': 'audio' ,               
             },           
         },
-        'description' : `Ripios, garabatos y jitanjÃ¡foras es la radio especializada en niÃ±as, niÃ±os y adolescentes para hablar de literatura y mÃºsica. Un prgrama con mucha poesÃ­a y garabatos.`,
+        'description' : `Ripios, garabatos y jitanjáforas es la radio especializada en niñas, niños y adolescentes para hablar de literatura y música. Un prgrama con mucha poesía y garabatos.`,
     },
-    /* MÃºsica de Ripios, garabatos y jitanjÃ¡foras */
+    /* Música de Ripios, garabatos y jitanjáforas */
     3 : {
-        'name' : 'MÃºsica de Ripios, garabatos y jitanjÃ¡foras',
+        'name' : 'Música de Ripios, garabatos y jitanjáforas',
         'age' : 0,
         'thumbnail' : 'img/neo/rgj_musica_thumb.png',
         'playList' : {
              1 : { 
-                'songName' : 'JitanjÃ¡fora',
-                'url' : 'audio/rgj/AlonsoArreolaDemianGÃ¡lvez-Jitanjafora.mp3',
+                'songName' : 'Jitanjáfora',
+                'url' : 'audio/rgj/AlonsoArreolaDemianGálvez-Jitanjafora.mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
-                'artist' : 'Alonso Arreola, DemiÃ¡n GÃ¡lvez',
+                'artist' : 'Alonso Arreola, Demián Gálvez',
                 'type': 'audio' ,               
             },
 
             2 : { 
-                'songName' : 'Salida de los niÃ±os de la escuela primaria de Santa Eulalia',
+                'songName' : 'Salida de los niños de la escuela primaria de Santa Eulalia',
                 'url' : 'audio/rgj/salidadelaescuela.mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
                 'artist' : '[s.a]',
@@ -141,7 +141,7 @@ const player_data = {
             },
           
             6 : { 
-                'songName' : 'PÃ¡sele, pÃ¡sele',
+                'songName' : 'Pásele, pásele',
                 'url' : 'audio/rgj/Coro%20Acardenchado%20-%20P%c3%a1sele,%20p%c3%a1sele.mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
                 'artist' : 'Coro Acardenchado',
@@ -160,7 +160,7 @@ const player_data = {
                 'songName' : 'Los gigantes',
                 'url' : 'audio/rgj/Jard%c3%adn%20L%c3%a1ser%20-%20Los%20gigantes.mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
-                'artist' : 'JardÃ­n LÃ¡ser',
+                'artist' : 'Jardín Láser',
                 'type': 'audio' ,               
             },
             
@@ -237,10 +237,10 @@ const player_data = {
             },
             
             18 : { 
-                'songName' : 'La diversiÃ³n que hacÃ­a falta en mi paÃ­s',
+                'songName' : 'La diversión que hacía falta en mi país',
                 'url' : 'audio/rgj/Los%20Pira%c3%b1as%20-%20La%20diversi%c3%b3n%20que%20hac%c3%ada%20falta%20en%20mi%20pa%c3%ads.mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
-                'artist' : 'Los PiraÃ±as',
+                'artist' : 'Los Pirañas',
                 'type': 'audio' ,               
             },
             
@@ -264,15 +264,15 @@ const player_data = {
                 'songName' : 'Abajo, arriba',
                 'url' : 'audio/rgj/Roxana%20R%c3%ado%20-%20Abajo,%20arriba.mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
-                'artist' : 'Roxana RÃ­o',
+                'artist' : 'Roxana Río',
                 'type': 'audio' ,               
             },
             
             22 : { 
-                'songName' : 'LuchÃ­n',
+                'songName' : 'Luchín',
                 'url' : 'audio/rgj/Sho%20Tr%c3%ado%20-%20%20Luchin.mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
-                'artist' : 'Sho TrÃ­o',
+                'artist' : 'Sho Trío',
                 'type': 'audio' ,               
             },
             
@@ -285,7 +285,7 @@ const player_data = {
             },
             
             24 : { 
-                'songName' : ' Flor del RÃ­o',
+                'songName' : ' Flor del Río',
                 'url' : 'audio/rgj/Bandula%20-%20Flor%20del%20R%c3%ado.mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
                 'artist' : 'Bandula',
@@ -301,10 +301,10 @@ const player_data = {
             },
             
             26 : { 
-                'songName' : 'Coplita (feat. Miriam GarcÃ­a)',
+                'songName' : 'Coplita (feat. Miriam García)',
                 'url' : 'audio/rgj/Chancha%20V%c3%ada%20Circuito%20-%20Coplita%20(feat.%20Miriam%20Garc%c3%ada).mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
-                'artist' : 'Chancha VÃ­a Circuito',
+                'artist' : 'Chancha Vía Circuito',
                 'type': 'audio' ,               
             },
             
@@ -312,20 +312,20 @@ const player_data = {
                 'songName' : 'Palabras para Julia',
                 'url' : 'audio/rgj/Amparo%20S%c3%a1nchez%20&%20Arianna%20Puello%20-%20Palabras%20para%20Julia.mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
-                'artist' : 'Amparo SÃ¡nchez & Arianna Puello',
+                'artist' : 'Amparo Sánchez & Arianna Puello',
                 'type': 'audio' ,               
             },
             
             28 : { 
-                'songName' : 'Diente de leÃ³n',
+                'songName' : 'Diente de león',
                 'url' : 'audio/rgj/Anthony%20Escand%c3%b3n%20-%20Diente%20de%20le%c3%b3n.mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
-                'artist' : 'Anthony EscandÃ³n',
+                'artist' : 'Anthony Escandón',
                 'type': 'audio' ,               
             },
             
             29 : { 
-                'songName' : 'PercugrafÃ­a',
+                'songName' : 'Percugrafía',
                 'url' : 'audio/rgj/Edwin%20Ospina%20-%20Percugraf%c3%ada.mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
                 'artist' : 'Edwin Ospina',
@@ -341,7 +341,7 @@ const player_data = {
             },
             
             31 : { 
-                'songName' : 'Cuando muere una lengua (feat. RubÃ©n AlbarrÃ¡n)',
+                'songName' : 'Cuando muere una lengua (feat. Rubén Albarrán)',
                 'url' : 'audio/rgj/Ampersan%20-%20Cuando%20muere%20una%20lengua%20(feat.%20Rub%c3%a9n%20Albarr%c3%a1n).mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
                 'artist' : 'Ampersan',
@@ -389,7 +389,7 @@ const player_data = {
             },
             
             37 : { 
-                'songName' : 'Toke Mita (Con coros guaranÃ­es)',
+                'songName' : 'Toke Mita (Con coros guaraníes)',
                 'url' : 'audio/rgj/Tonolec%20-%20Toke%20Mita%20(Con%20coros%20guaran%c3%ades).mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
                 'artist' : 'Tonolec',
@@ -413,67 +413,67 @@ const player_data = {
             },
             
             40 : { 
-                'songName' : 'DuÃ©rmete',
+                'songName' : 'Duérmete',
                 'url' : 'audio/rgj/S%c3%adlvia%20P%c3%a9rez%20Cruz%20-%20Du%c3%a9rmete.mp3',
                 'thumbnail' : 'img/neo/rgj_musica_thumb.png',
-                'artist' : 'SÃ­lvia PÃ©rez Cruz',
+                'artist' : 'Sílvia Pérez Cruz',
                 'type': 'audio' ,               
             },            
         },
-        'description' : `Lista de reproducciÃ³n semana 1`,
+        'description' : `Lista de reproducción semana 1`,
     }, 
-    /* Cantos de amor y de sueÃ±os */
+    /* Cantos de amor y de sueños */
     4: {
-        'name' : 'Cantos de amor y de sueÃ±os',
+        'name' : 'Cantos de amor y de sueños',
         'age' : 0,
         'thumbnail' : 'img/neo/cantos.png',
         'playList' : {
 
             1 : { 
-                'songName' : 'CÃ¡psula 1. Cantos de amor y de sueÃ±os.',
+                'songName' : 'Cápsula 1. Cantos de amor y de sueños.',
                 'url' : 'audio/Arrullos/01-cantos.mp3',
                 'thumbnail' : 'img/neo/cantos.png',
-                'artist' : 'MÃºsica: Irene Nieto, Tor Rivera y Belem HernÃ¡ndez Sarmiento',
+                'artist' : 'Música: Irene Nieto, Tor Rivera y Belem Hernández Sarmiento',
                 'type': 'audio',               
             },
         },
-        'description' : 'Cantos de amor y de sueÃ±os. CÃ¡psula que recupera las nanas dadas por la partera Irene Nieto en Santa Ana Atzacan. En ella se propone el proyecto "Cantos de amor y de sueÃ±os" a partir del reconocimiento de que la crianza y el arrullo se aprenden cantando y arrullando. "De eso tratan estas cÃ¡psulas que aquÃ­ en Alas y RaÃ­ces presentamos: de cuÃ¡ndo, dÃ³nde, cÃ³mo y por quÃ© cantamos, con o sin versos, con letras que aprendimos de estas tierras que somos o las que inventamos o recreamos para quienes comienzan en la vida. Seamos profesionales o no la mÃºsica, nos pertenece. Estos son cantos de amor y de sueÃ±os llenos de historias, experiencias, ternura y raÃ­ces.',
+        'description' : 'Cantos de amor y de sueños. Cápsula que recupera las nanas dadas por la partera Irene Nieto en Santa Ana Atzacan. En ella se propone el proyecto "Cantos de amor y de sueños" a partir del reconocimiento de que la crianza y el arrullo se aprenden cantando y arrullando. "De eso tratan estas cápsulas que aquí en Alas y Raíces presentamos: de cuándo, dónde, cómo y por qué cantamos, con o sin versos, con letras que aprendimos de estas tierras que somos o las que inventamos o recreamos para quienes comienzan en la vida. Seamos profesionales o no la música, nos pertenece. Estos son cantos de amor y de sueños llenos de historias, experiencias, ternura y raíces.',
     },
-     /* Alas de colibrÃ­ */
+     /* Alas de colibrí */
     5 : {
-        'name' : 'Alas de colibrÃ­',
+        'name' : 'Alas de colibrí',
         'age' : 0,
         'thumbnail' : 'img/neo/alasdecolibri.png',
         'playList' : {
             1 : { 
-            	'songName' : 'Camila San SimÃ³n nos cuenta de Galicia',
+            	'songName' : 'Camila San Simón nos cuenta de Galicia',
                 'url' : 'audio/alas/04CamilaSanSimonGaliciaCR.mp3',
                 'thumbnail' : 'img/neo/alasdecolibri.png',
-                'artist' : 'Alas de ColibrÃ­',
+                'artist' : 'Alas de Colibrí',
                 'type': 'audio' ,
             }, 
             2 : {             	
-            	'songName' : 'Pablo es de Santa MarÃ­a Tlahutoltepec, Oaxaca; y ama la mÃºsica',
+            	'songName' : 'Pablo es de Santa María Tlahutoltepec, Oaxaca; y ama la música',
                 'url' : 'audio/alas/03PabloTlahuiCR.mp3',
                 'thumbnail' : 'img/neo/alasdecolibri.png',
-                'artist' : 'Alas de ColibrÃ­',
+                'artist' : 'Alas de Colibrí',
                 'type': 'audio' ,
             },
             3 : {
-                'songName' : 'Florencio explica cÃ³mo preparar el zacahuil',
+                'songName' : 'Florencio explica cómo preparar el zacahuil',
                 'url' : 'audio/alas/02FlorencioAxtla.mp3',
                 'thumbnail' : 'img/neo/alasdecolibri.png',
-                'artist' : 'Alas de ColibrÃ­',
+                'artist' : 'Alas de Colibrí',
                 'type': 'audio' ,               
             },
-            4 : { 'songName' : 'Lupita y los concursos de violÃ­n',
+            4 : { 'songName' : 'Lupita y los concursos de violín',
                 'url' : 'audio/alas/01lupitaviolin.mp3',
                 'thumbnail' : 'img/neo/alasdecolibri.png',
-                'artist' : 'Alas de ColibrÃ­',
+                'artist' : 'Alas de Colibrí',
                 'type': 'audio' ,       
             },
         },
-        'description' : 'Alas de colibrÃ­',
+        'description' : 'Alas de colibrí',
     },
     /* Esta es mi voz */
     6 : {
@@ -485,7 +485,7 @@ const player_data = {
                 'songName' : 'Esta es mi voz',
                 'url' : 'audio/voz/06ninas.mp3',
                 'thumbnail' : 'img/neo/voz_thumb.png',
-                'artist' : 'Radio NiÃ±as, Â¡ya me quiero ir!',
+                'artist' : 'Radio Niñas, ¡ya me quiero ir!',
                 'type': 'audio' ,
             },
             2 : { 
@@ -504,9 +504,9 @@ const player_data = {
             },
             4 : { 
                 'songName' : 'Esta es mi voz',
-                'url' : 'audio/voz/03imaginaciÃ³n.mp3',
+                'url' : 'audio/voz/03imaginación.mp3',
                 'thumbnail' : 'img/neo/voz_thumb.png',
-                'artist' : 'Radio: La magia de la imaginaciÃ³n',
+                'artist' : 'Radio: La magia de la imaginación',
                 'type': 'audio' ,
             },
             5 : { 
