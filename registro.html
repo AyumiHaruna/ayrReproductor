@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alas y Raíces | Registro </title>
+
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/035f9caf7c.js" crossorigin="anonymous"></script>
+    <!-- Axios HTTP client -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.8.2/dist/sweetalert2.all.min.js"></script>
+
+
+    <!-- style sheets -->
+    <!-- general styles -->
+    <link rel="stylesheet" href="css/Main.css" />
+    <link rel="stylesheet" href="css/Navbar.css" />
+    <link rel="stylesheet" href="css/Registro.css" />
+    <link rel="stylesheet" href="css/Suscribe.css" />
+    <link rel="stylesheet" href="css/FooterAyR.css" />
+    <link rel="stylesheet" href="css/FooterGob.css" />
+</head>
+<body>
+    <div class="container-fluid" style="overflow-x: hidden;">
+        
+         <!-- header gobierno -->
+         <section>
+            <div class="row">
+                <div class="col-12 p-0">                                        
+                    <header>
+                        <section class="header_gobierno bg-light">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <a class="navbar-brand" href="https://www.gob.mx">
+                                    <img src="https://www.alasyraices.gob.mx/landing/gmx.png" width="90" height="30" class="d-inline-block align-top" alt="">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <section class="navbar-collapse justify-content-end collapse" id="navbarNav" style="">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="https://www.gob.mx/tramites">Trámites</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://www.gob.mx/gobierno">Gobierno</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="https://www.gob.mx/busqueda">🔍
+                                    </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </nav>
+                        </section>
+                    </header>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- header alas y raices -->
+        <section>
+            <div class="row">
+                <div class="nav_ayr"></div>
+            </div>
+        </section>
+
+
+        <!-- formulario de registro -->
+        <section>
+            <div class="row registro_block">
+                <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 wrapper">
+                    <div class="row">
+                        <div class="col-12 title">
+                            <span>Registrate</span>  y participa en los retos que Vitamina Sé y Alas y Raíces tiene para ti.
+                        </div>
+                        <div class="col-12 subTitle">
+                            Llena el siguiente formulario con datos que sean correctos.
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 innerWrapp">
+                            <div class="form-group row">
+                                <label for="nombre">Mi nombre es:</label>                        
+                                <input class="form-control" type="text" name="nombre" id="nombre" maxlength="100"/>
+                            </div>
+        
+                            <div class="form-group row">
+                                <div class="col-md-2 col-3">
+                                    <label for="edad">Tengo </label>
+                                </div>                        
+                                <div class="col-md-5 col-6">
+                                    <input class="form-control" type="number" id="edad" 
+                                    min="0" max="100" />
+                                </div>
+                                <div class="col-md-3 col-3">
+                                    <label for="edad"> años.</label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group row">
+                                <div class="col-md-2 col-3">
+                                        <label for="genero">Soy</label>
+                                </div>
+                                <div class="col-md-5 col-6">
+                                    <select class="form-control" name="genero" id="genero">
+                                        <option value="Niña">Niña</option>
+                                        <option value="Niño">Niño</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group row">
+                                <label for="estado">Vivo en  </label>
+                                <select class="form-control" name="estado" id="estado" onChange="updateMunicipios()">
+                                    <option value="">-Elige tu estado-</option>
+                                </select>
+                            </div>
+        
+                            <div class="form-group row">
+                                <label for="municipio">Municipio</label>
+                                <select class="form-control" name="municipio" id="municipio">
+                                    <option value="">-Elige tu municipio-</option>
+                                </select>
+                            </div>
+        
+                            <div class="form-group row">
+                                <label for="mail">El correo electrónico de mi mamá, papá o tutor:  </label>
+                                <input class="form-control" type="email" name="mail" id="mail" placeholder="mi_papa@mail.com" maxlength="150" />
+                            </div>
+
+                            <div class="form-check row acepto_block">
+                                <input class="form-check-input" type="checkbox" value="1" id="acepto" name="acepto" onChange="testCheckUp(this)">
+                                <label class="form-check-label" for="acepto">
+                                    Mis papás y/o tutores leyeron y aceptan los términos y condiciones, así como las <a href="terminos_condiciones.html" target="_blank">políticas de privacidad</a>.
+                                </label>
+                                <br>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 aviso">
+                                    *Llenar todas las respuestas es necesario para completar el registro.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <button class="btn btn-block" id="submit" onClick="validateForm()" disabled>Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sección suscribete -->
+        <section>
+            <div class="row Suscribe" id="suscribe_block">
+                <div class="col-lg-6 Suscribe_Text">
+                    No te pierdas de todas la novedades que Alas y Raices tiene para ti
+                </div>
+                <div class="col-lg-5">
+                    <div class="input-group">                        
+                        <input type="mail" class="form-control" id="Suscribe_Input" placeholder="Tu_correo@electrónico">
+                        <div class="input-group-prepend">
+                            <button type="button" id="Suscribe_button" onClick="postSuscribe()"> Suscríbete &nbsp; <i class="far fa-lg fa-envelope"></i> </button<>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- footer Alas y raices -->
+        <section>
+            <div class="row footer-ayr">
+                    <div class="col-12 ">
+                        <div class="row">
+                            <div class="col-sm-4 sub-div">
+                                <span>Estamos en:</span> <br><br>
+        
+                                <a href="https://www.google.com.mx/maps/place/Secretar%C3%ADa+de+Cultura/@19.4308637,-99.1607373,21z/data=!4m5!3m4!1s0x0:0x581dc9dfb95e46b8!8m2!3d19.4309837!4d-99.1606557?shorturl=1">
+                                    Av. Paseo de la Reforma 175, piso 5
+                                    Col. Renacimiento, Alc. Cuauhtémoc
+                                    C.P. 06500, Ciudad de México, México
+                                </a> <br><br>
+                            </div>
+                            <div class="col-sm-4 sub-div"> 
+                                <a href="https://www.alasyraices.gob.mx/"> <img src="img/ayrCloud.png" alt="Logo alas y raíces" /> </a><br>
+                                    Derechos reservados © Secretaría de Cultura,
+                                    Coordinación Nacional de Desarrollo Cultural Infantil,
+                                    Programa nacional Alas y Raíces, México, 2019.
+                            </div>
+                            <div class="col-sm-4 sub-div">
+                                Síguenos en nuestras redes: <br> <br>
+                                <a href="https://www.facebook.com/alasyraicescultura/"> <i class="fab fa-2x fa-facebook-f"></i> </a> &nbsp;
+                                <a href="https://twitter.com/alasyraices"> <i class="fab fa-2x fa-twitter"></i> </a> &nbsp;
+                                <a href="https://www.instagram.com/alasyraicescultura/"> <i class="fab fa-2x fa-instagram"></i> </a> &nbsp;
+                                <a href="https://www.youtube.com/c/AlasyRa%C3%ADcesCultura/"><i class="fab fa-2x fa-youtube"></i></a>
+                                <br><br>
+                                Teléfono: <a href="4155-0200">4155-0200 ext 9320</a> <br>
+                                correo-e: <a href="alasyraices@cultura.gob.mx">alasyraices@cultura.gob.mx</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+            
+    
+        <!-- footer Gobierno -->
+        <section>
+            <div class="row footer-gob">                
+                <div class="col-12">
+                    <div class="row">
+                        <img src="img/fondofooter.png" alt="pleca de separación" id="pleca-gob">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-sm-3 sub-div footer-gob1">
+                            <div>
+                                <a href="https://www.gob.mx/"> 
+                                    <img src="img/logoheader.svg" alt="logo gobierno mx" /> 
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.gob.mx/cultura/"> 
+                                    <img src="img/logo-cultura.svg" alt="logo secretaria de cultura" /> 
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 sub-div footer-gob2">
+                            <span>Enlaces</span><br><br>
+                            <p>
+                                <a href="https://www.participa.gob.mx/">Participa</a> <br>
+                                <a href="https://www.gob.mx/publicaciones">Publicaciones oficiales</a> <br>
+                                <a href="http://www.ordenjuridico.gob.mx/">Marco Jurídico</a> <br>
+                                <a href="https://www.plataformadetransparencia.org.mx/web/guest/inicio">Plataforma Nacional de Transparencia</a>
+                            </p>
+                        </div>
+    
+                        <div class="col-sm-3 sub-div footer-gob3">
+                            <span>¿Qué es gob.mx?</span><br><br>
+                            <p>
+                                Es el portal único de trámites, información y participación ciudadana. <a href="https://www.gob.mx/que-es-gobmx">Leer más</a>
+                            </p>
+    
+                            <p>
+                                <a href="https://datos.gob.mx/">Portal de datos abiertos</a><br>
+                                <a href="https://www.gob.mx/accesibilidad">Declaración de accesibilidad</a><br>
+                                <a href="https://www.gob.mx/privacidadintegral">Aviso de privacidad integral</a><br>
+                                <a href="https://www.gob.mx/privacidadsimplificado">Aviso de privacidad simplificado</a><br>
+                                <a href="https://www.gob.mx/terminos">Términos y condiciones</a><br>
+                                <a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de seguridad</a><br>
+                                <a href="https://www.gob.mx/sitemap">Mapa del sitio</a>
+                            </p>
+                        </div>
+                        
+                        <div class="col-sm-3 sub-div footer-gob4">
+                            <span> <a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">Denuncia contra servidores públicos</a></span><br><br>
+                            <p>
+                                Síguenos en: <br>
+                                <a href="https://www.facebook.com/gobmexico/"><i class="fab fa-lg fa-facebook-f"></i></a> &nbsp;&nbsp;
+                                <a href="https://twitter.com/GobiernoMX"><i class="fab fa-lg fa-twitter"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+<!-- page elements -->
+<script src="js/common.js"></script>
+<script src="js/Registro.js"></script>
+<!-- general components -->
+<script src="js/Components/Navbar.js"></script>
+<!-- data objects -->
+<script src="js/Data/estados_data.js"></script>
+
+</html>

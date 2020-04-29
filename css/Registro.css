@@ -1,0 +1,132 @@
+.registro_block {
+    padding: 6vw;
+    /* background: #e6e6e6; */
+}
+
+.registro_block .wrapper {
+    padding: 3vw 3vw;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 1.1em;
+    /* -webkit-box-shadow: 0px 4px 11px -1px rgba(133,133,133,1);
+    -moz-box-shadow: 0px 4px 11px -1px rgba(133,133,133,1);
+    box-shadow: 0px 4px 11px -1px rgba(133,133,133,1); */
+}
+.registro_block .innerWrapp {
+    padding: 0 4vw;
+}
+
+.registro_block .title {
+    font-size: 1.3em;
+    font-family: "Montserrat";
+    color: #6200b3;
+    text-align: center;    
+}
+.registro_block .title span{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #8c00ff;
+}
+
+.registro_block .subTitle {
+    padding: 0.5vw 0 2vw 0;
+    font-family : "Montserrat";
+    text-align: center;
+    font-size: 0.9em;
+    color: #666666;
+}
+
+.registro_block label {
+    color: #cc0099;
+    cursor: pointer;
+}
+.registro_block .wrapper input,
+.registro_block .wrapper select{
+    font-size: 0.9em;
+    color: #595959;
+    text-align: center;
+}
+
+
+
+.registro_block .acepto_block label {
+    font-family: "Montserrat";
+    font-size: 0.9em;   
+    color: #666666;
+    cursor: pointer;
+}
+.registro_block .aviso {
+    font-family:  "Montserrat";
+    font-size: 0.9em;
+    color: #ff0066;
+    margin-top: 1vw;
+}
+
+.registro_block #submit {
+    margin-top: 1.5vw;    
+    padding: 1vw 0;
+    background-color: #6200b3;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+
+
+
+input[type="email"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #a6a6a6; 
+}  
+input[type="email"]:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #a6a6a6; 
+}  
+input[type="email"]::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #a6a6a6; 
+} 
+
+
+
+
+@media (max-width: 768.98px) {}
+@media (max-width: 576px) {
+    .registro_block {
+        padding: 12vw 6vw;
+    }
+    .registro_block .wrapper {
+        padding: 5vw 6vw;
+        font-size: 1em;
+    }
+    .registro_block .innerWrapp {
+        padding: 0 8vw;
+    }
+    .registro_block .title {
+        font-size: 1.1em;
+    }
+    .registro_block .title span{
+        font-size: 1.2em;
+    }
+    .registro_block .subTitle {
+        padding: 4vw 0 4vw 0;
+        font-size: 0.8em;
+        color: #4d4d4d;
+    }
+    .registro_block label {
+        cursor: pointer;
+    }
+    .registro_block .wrapper input,
+    .registro_block .wrapper select{
+        font-size: 0.9em;
+    }
+    .registro_block .acepto_block label {
+        font-size: 0.8em;   
+    }
+    .registro_block .aviso {
+        font-size: 0.8em;
+        margin-top: 4vw;
+    }
+    
+    .registro_block #submit {
+        margin-top: 3vw;    
+        padding: 1.5vw 0;
+        font-size: 1.3em;
+    }
+}
