@@ -29,9 +29,41 @@
 </head>
 <body>
     <div class="container-fluid" style="overflow-x: hidden;">
+        <!-- success message -->
+        <section>
+            <div class="row success_block">
+                <div class="smokeScreen"></div>
+                <div class="col-md-8 offset-md-2 col-10 offset-1 message_screen">
+                    <div class="title">¡Muchas gracias por tu registro!</div>
+
+                    <div class="message">
+                        Ahora ya puedes compartir con nosotros fotos, videos, comentarios y todo lo que puedas
+                        imaginar.   <br><br>
+
+                        Los datos personales que nos compartiste (tu nombre, sexo, edad, entidad federativa,
+                        municipio y correo electrónico) serán utilizados únicamente para llevar un control y
+                        estadísticas sobre la participación de niñas, niños y adolescentes en nuestra página y, para
+                        enviarte información de otros eventos y actividades que hagamos. <br><br>
+
+                        Nosotros, La Coordinación Nacional de Desarrollo Cultural Infantil, con domicilio en Calle
+                        Paseo de la Refotrma número 175, Piso 5, C.P. 06500, Cuauhtémoc, CDMX, México; estamos
+                        obligados y somos responsables de proteger los datos personales que nos enviaste, según lo 
+                        establece la Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados (LGPDPPSO) 
+                        y demás normatividad aplicable. <br><br>
+
+                        Al registrarte con nosotros, autores/as y cuidadores legales autorizan el uso de los datos
+                        personales recabados, para los fines antes establecidos.
+                    </div>                    
+
+                    <div>
+                        <button class="btn btn-block" id="message_close" onClick="closeSuccessMessage()">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
         
          <!-- header gobierno -->
-         <section>
+        <section>
             <div class="row">
                 <div class="col-12 p-0">                                        
                     <header>

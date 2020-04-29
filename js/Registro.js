@@ -48,7 +48,7 @@ function testCheckUp( elm ){
 }
 
 
-//validate form before submit 
+//validate form then submit
 function validateForm(){
     //get all fields values 
     let nombre = document.getElementById("nombre");   
@@ -197,28 +197,54 @@ function validateForm(){
         mail: mail.value
       })
       .then(function (response) {
-        console.log(response);
-        // Swal.close()	
-        // //trow an alert from "sweetAlert.js"
-        // Swal.fire({
-        //     title: 'Gracias',
-        //     text: 'Tu correo se registro exitosamente',
-        //     icon: 'success',
-        //     confirmButtonText: 'Ok'
-        // });
+        if( response.data.status === "error"){
+            Swal.close()	
+            //trow an alert from "sweetAlert.js"
+            Swal.fire({
+                title: 'Error!',
+                text: response.data.message,
+                icon: 'error',
+                confirmButtonText: 'Ok'
+            });
+            
+            document.getElementById("submit").disabled = false;
+            
+        } else if( response.data.status === "ok" ) {
+            Swal.close()	
+            showSuccessMessage();
+        }
+        
+        return;
       })
       .catch(function (error) {
-        console.log(error);
-        // Swal.close()	
-        // //trow an alert from "sweetAlert.js"
-        // Swal.fire({
-        //     title: 'Error!',
-        //     text: 'El servidor no responde, inténtelo mas tarde',
-        //     icon: 'error',
-        //     confirmButtonText: 'Ok'
-        // });
+        Swal.close()	
+        //trow an alert from "sweetAlert.js"
+        Swal.fire({
+            title: 'Error!',
+            text: 'El servidor no responde, inténtelo mas tarde',
+            icon: 'error',
+            confirmButtonText: 'Ok'
+        });
         
         document.getElementById("submit").disabled = false;
         return;
     });
+}
+
+
+
+function showSuccessMessage() {
+    //if is from cellphone, scroll to top to show message
+    if( window.screen.width <= 576){
+        window.scrollTo(0, 10);
+    }
+
+    //show message
+    var block = document.getElementsByClassName("success_block")[0];
+    block.style.display = "block";
+}
+function closeSuccessMessage() {
+    //hide message
+    var block = document.getElementsByClassName("success_block")[0];
+    block.style.display = "none";
 }

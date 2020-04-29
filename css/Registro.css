@@ -3,6 +3,50 @@
     /* background: #e6e6e6; */
 }
 
+.success_block {
+    display: none;
+}
+.success_block .smokeScreen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    background:rgba(0,0,0, 0.3);
+}
+.success_block .message_screen {
+    position: fixed;
+    top: 5vw;
+    z-index: 4;
+    background: #fff;
+    border-radius: 15px;
+    padding: 3vw;
+}
+.success_block .message_screen .title {
+    color: #8c00ff;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 2vw;
+}
+.success_block .message_screen .message {
+    color: #595959;
+    padding: 1vw 2vw;
+    text-align: justify;
+}
+.success_block .message_screen #message_close {
+    margin-top: 1.5vw;    
+    padding: 1vw 0;
+    background-color: #6200b3;
+    color: #fff;
+    font-size: 1.2em;
+}
+.success_block .message_screen #message_close:hover {
+    background-color: #8c00ff;
+}
+
+
 .registro_block .wrapper {
     padding: 3vw 3vw;
     border-radius: 10px;
@@ -128,5 +172,26 @@ input[type="email"]::-ms-input-placeholder { /* Microsoft Edge */
         margin-top: 3vw;    
         padding: 1.5vw 0;
         font-size: 1.3em;
+    }
+
+    .success_block .smokeScreen{
+        background:rgba(0,0,0, 0.5);
+    }
+    .success_block .message_screen{
+        position: absolute;
+        padding: 6vw 3vw;
+        top: 20vw;
+    }    
+    .success_block .message_screen .title {
+        font-size: 1.3em;
+        margin-bottom: 4vw;
+    }
+    .success_block .message_screen .message {
+        padding: 1vw 4vw;
+        font-size: 0.9em;
+    }
+    .success_block .message_screen #message_close { 
+        margin-top: 5vw;    
+        padding: 2vw;
     }
 }
